@@ -29,8 +29,7 @@ This repository contains a flexible, lightweight framework for building AI agent
 
 1. Set up your API keys in environment variables.
 ```
-export OPENAI_API_KEY=sk-proj-....
-export FINANCIAL_MODELING_PREP_API_KEY=...
+pip install openai colorama
 ```
 
 2. Customize atomic tools and orchestration functions as needed.
@@ -38,6 +37,8 @@ export FINANCIAL_MODELING_PREP_API_KEY=...
 
 Example:
 ```python
+export OPENAI_API_KEY=sk-proj-....
+export FINANCIAL_MODELING_PREP_API_KEY=...
 python driver.py
 ```
 
